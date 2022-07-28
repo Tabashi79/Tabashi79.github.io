@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@vk-io/hear": "^1.1.0",
+    "vk-io": "^4.6.0"
+  }
+}
