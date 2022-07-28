@@ -3,6 +3,14 @@
 // File: alina.js
 // Version: 0.1
 
+app.on('ready', () => {
+    mainWindow = new BrowserWindow({
+        webPreferences: {
+	    contextIsolation: false	
+        }
+    });
+});
+
 const { VK } = require('vk-io')
 const { HearManager } = require('@vk-io/hear')
 
