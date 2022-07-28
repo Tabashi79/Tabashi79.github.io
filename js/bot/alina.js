@@ -3,6 +3,8 @@
 // File: alina.js
 // Version: 0.1
 
+let app = app;
+
 app.on('ready', () => {
     mainWindow = new BrowserWindow({
         webPreferences: {
