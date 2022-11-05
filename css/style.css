@@ -30,8 +30,8 @@ h1, h2, ul {
 }
 
 .index-link:not(:last-child) {
-  margin-top: 80px;
   margin-right: 96px;
+  margin-bottom: 40px;
 }
 
 /* HTML5 */
