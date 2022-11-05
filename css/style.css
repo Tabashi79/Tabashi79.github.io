@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, ul {
+  margin: 0;
+}
+
+.section:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+/* Index */
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.index-link {
+  display: inline-block;
+  margin: 0;
+  padding-left: 25px;
+  width: 250px;
+  border: 2px solid greenyellow;
+  border-radius: 20px;
+  background-color: greenyellow;
+  font-size: 60px;
+  color: black;
+  text-decoration: none;
+}
+
+.index-link:not(:last-child) {
+  margin-top: 80px;
+  margin-right: 96px;
+}
+
+/* HTML5 */
+.container-base {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.body {
+  padding: 40px 30px;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.main {
+  margin-bottom: 40px;
+}
+
+.title-two {
+  margin-bottom: 20px;
+}
+
+.list {
+  padding-left: 20px;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
