@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-h1, h2, ul {
+h1, h2, ul, p {
   margin: 0;
 }
 
@@ -32,6 +32,10 @@ h1, h2, ul {
 .index-link:not(:last-child) {
   margin-right: 96px;
   margin-bottom: 40px;
+}
+
+.footer-text {
+  margin-bottom: 15px;
 }
 
 /* HTML5 */
