@@ -1,9 +1,42 @@
+/* Шрифты */
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/GothamProBoldItalic.eot');
+  src: local('Gotham Pro Bold Italic'), local('GothamProBoldItalic'),
+    url('../fonts/GothamProBoldItalic.woff2') format('woff2'),
+    url('../fonts/GothamProBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/GothamProLight.eot');
+  src: local('Gotham Pro Light'), local('GothamProLight'),
+    url('../fonts/GothamProLight.woff2') format('woff2'),
+    url('../fonts/GothamProLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Настройка */
 * {
   box-sizing: border-box;
 }
 
-h1, h2, ul, p {
+h1,
+h2,
+ul,
+p {
   margin: 0;
+}
+
+body {
+  font-family: 'Gotham Pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .section:not(:last-child) {
@@ -56,8 +89,17 @@ h1, h2, ul, p {
   margin-bottom: 40px;
 }
 
+.title-one {
+  font-family: 'Gotham Pro', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .title-two {
   margin-bottom: 20px;
+  font-family: 'Gotham Pro', sans-serif;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .list {
