@@ -109,3 +109,10 @@ body {
 .list-item:not(:last-child) {
   margin-bottom: 10px;
 }
+
+/* projects */
+.container-projects {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 80px 15px;
+}

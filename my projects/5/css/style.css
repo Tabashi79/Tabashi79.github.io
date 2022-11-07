@@ -1,0 +1,308 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+figure {
+  font-size: 0;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+/* index */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #070217;
+}
+
+.logo-heading {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.link {
+  margin-bottom: 50px;
+}
+
+.link-item {
+  display: inline-block;
+  padding: 24px 49px;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3f2aff;
+}
+
+.link-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.link-download {
+  padding-left: 30px;
+  padding-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #3f2aff;
+  background: url('../img/download.png') no-repeat;
+}
+
+/* article */
+.container-article {
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 1170px;
+}
+
+.title-one {
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #333;
+}
+
+.text {
+  margin: 0;
+  margin-bottom: 40px;
+  width: 872px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+.text-background {
+  padding: 50px 95px;
+  border-radius: 20px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  background-color: #3f2aff;
+}
+
+.block-element {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #f3f3f3;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.block-element:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.decorate-1 {
+  background-image: url('../img/decorate-1.png');
+}
+
+.decorate-2 {
+  background-image: url('../img/decorate-2.png');
+}
+
+.text-paragraph {
+  width: 692px;
+  margin-bottom: 10px;
+}
+
+.title-two,
+.title-three {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.title-two {
+  font-size: 40px;
+  line-height: 46px;
+  color: #333;
+}
+
+.title-three {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #333;
+}
+
+.list {
+  margin: 0;
+  padding-left: 15px;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.list-item::marker {
+  color: blue;
+}
+
+.list-item__link {
+  border-bottom: 1px solid #3f2aff;
+  font-size: 20px;
+  color: #3f2aff;
+}
+
+.image {
+  margin-bottom: 40px;
+}
+
+.image-wrap {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 40px;
+  width: 872px;
+}
+
+.image-wrap__descr {
+  padding: 19px;
+  border: 1px solid #b6b6b6;
+  border-top: none;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* modules */
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.logo-main {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.link-index {
+  display: inline-block;
+  padding-left: 52px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3F2AFF;
+  background: url('../img/Arrow 1.png') no-repeat center left;
+}
+
+.title-main {
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+  color: #3F2AFF;
+}
+
+.subtitle {
+  margin: 0;
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #3F2AFF;
+}
+
+.list-cards {
+  padding: 0;
+  font-size: 0;
+}
+
+.list-cards__item {
+  position: relative;
+  display: inline-block;
+  padding-top: 205px;
+  padding-left: 25px;
+  width: 572px;
+  height: 506px;
+  vertical-align: top;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.list-cards__item:not(:nth-child(2n)) {
+  margin-right: 25px;
+}
+
+.list-cards__item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.card-1 {
+  background: url('../img/photo-1.jpg') no-repeat top;
+}
+
+.card-2 {
+  background: url('../img/photo-2.jpg') no-repeat top;
+}
+
+.card-3 {
+  background: url('../img/photo-3.jpg') no-repeat top;
+}
+
+.card-4 {
+  background: url('../img/photo-4.jpg') no-repeat top;
+}
+
+.list-elemets {
+  padding: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 165%;
+  color: #333
+}
+
+.number {
+  position: absolute;
+  top: 434px;
+  left: 502px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: #EAEAEA;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border: 2px solid #3F2AFF;
+  width: 274px;
+  height: 70px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3F2AFF;
+  background-color: transparent;
+}
