@@ -46,7 +46,7 @@ body {
 /* Index */
 .container {
   margin: 0 auto;
-  width: 600px;
+  max-width: 300px;
 }
 
 .index-link {
