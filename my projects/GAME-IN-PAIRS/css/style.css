@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1045px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.list-cards {
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.list-card-item {
+  width: 250px;
+  height: 250px;
+  list-style-type: none;
+  background-color: #70a5d4;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+}
+
+.list-card-item_click {
+  border: 1px solid #70a5d4;
+  width: 250px;
+  height: 250px;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+}
+
+.list-card-item:not(:nth-child(4n)), .list-card-item_click:not(:nth-child(4n)) {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
